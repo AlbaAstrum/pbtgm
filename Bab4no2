@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab4no2;
+
+/**
+ *
+ * @author USER
+ */
+public class Bab4no2 {
+
+    public static void main(String[] args) {
+        int w,x,y,z;
+        w = 5;
+        x = 6;
+        y = 8;
+        z = 8;
+        
+        System.out.println(w);
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+    }
+}
