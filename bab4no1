@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab4no1;
+
+/**
+ *
+ * @author USER
+ */
+public class Bab4no1 {
+
+    public static void main(String[] args) {
+        int angka1 = 10;
+        int angka2 = 3;
+        
+            System.out.println("Bilangan 1 + Bilangan 2: " + (angka1 + angka2));
+            System.out.println("Bilangan 1 - Bilangan 2 " + (angka1 - angka2));
+            System.out.println("Bilangan 1 * Bilangan 2 " + (angka1 * angka2));
+            System.out.println("Bilangan 1 / Bilangan 2 " + (angka1 / angka2));
+    }
+}
