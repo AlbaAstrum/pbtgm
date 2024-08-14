@@ -1,0 +1,36 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab5no1;
+
+/**
+ *
+ * @author USER
+ */
+
+import java.util.Scanner;
+
+public class Bab5no1 {
+
+    public static void main(String[] args) {
+        Scanner userinput = new Scanner (System.in);
+        
+            //Content
+            System.out.println("Nama Karyawan");
+            String nama = userinput.nextLine();
+            System.out.println("Alamat");
+            String alm = userinput.nextLine();
+            System.out.println("Umur");
+            int umur = userinput.nextInt();
+            System.out.println("Gaji");
+            double sal = userinput.nextDouble();
+            
+            //Output
+            System.out.println("###Pendataan Karyawan PT. Petani kode ###");
+            System.out.println("Nama Karyawan : " + nama);
+            System.out.println("Alamat : " + alm);
+            System.out.println("Umur : " + umur);
+            System.out.println("Gaji : " + sal);
+    }
+}
