@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab1;
+
+/**
+ *
+ * @author USER
+ */
+public class Bab1 {
+
+    public static void main(String[] args) {
+        System.out.println("Apa itu JRE : Java Run-time Environment (JRE) adalah bagian dari Java DevelopmentKit (JDK). Merupakan distribusi perangkat lunak yang dapat di download JREsecara gratis yang memiliki Java Class Library, alat khusus, dan JVM yang berdiri sendiri.");
+        System.out.println("""
+                           Apa itu JDK : Seperti namanya, JDK adalah kit pengembangan java
+                           lengkap yang mencakup JRE (Java Runtime Environment), kompiler dan
+                           berbagai alat seperti JavaDoc, Java debugger dll.""");
+        System.out.println("Jelaskan apa itu Java Virtual Machine : Mesin virtual java (bahasa Inggris: Java Virtual Machine atau disingkat JVM) merupakan mesin virtual yang digunakan secara khusus mengeksekusi berkas bytecode java. Menurut Sun Microsystems (sekarang merupakan bagian dari Oracle Corporation), terdapat lebih dari 4,5 miliar lebih perangkat keras di dunia yang memiliki mesin virtual java di dalamnya.");
+        System.out.println("Jelaskan tahap membuat projek aplikasi baru dan class baru di netbeans! : Tahapnya ialah klik 'New Project' atau Ctrl + Shift + N, klik  'Java with maven' dan namai projek baru mu");
+        System.out.println("""
+                           Berdasarkan jenis,aplikasi apa saja yang dapat dibuat dengan menggunakan
+                           pemrograman Java? : Ada beberapa aplikasi yang dapat dibuat dengan Java, seperti aplikasi Desktop, web, perusahaan, mobile, Embedded System, Smart Card, Robotika, Game dll""");
+        System.out.println("Berdasarkan platform , platform apa saja pada Java? : Java Standard Edition (Java SE), Java Enterprise Edition (Java EE), Java Micro Edition (Java ME), dan JavaFX");
+    }
+}
