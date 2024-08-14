@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab3no2;
+
+/**
+ *
+ * @author USER
+ */
+public class Bab3no2 {
+    public static String nama;
+    public static final String kelas = "01SIFE020";
+    
+        public static void main(String[] args) {
+        int nim = 2110117000;
+        nama = "Andika Jaya Utama";
+        int usia = 19;
+        double tb = 1.72;
+        
+        System.out.println("Nim " + nim);
+        System.out.println("Nama " + nama);
+        System.out.println("Kelas " + kelas);
+        System.out.println("Usia " + usia);
+        System.out.println("Tinggi " + tb);
+        
+        
+    }
+}
