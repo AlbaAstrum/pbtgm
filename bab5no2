@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab5no2;
+
+/**
+ *
+ * @author USER
+ */
+
+import java.util.Scanner;
+
+public class Bab5no2 {
+
+    public static void main(String[] args) {
+        Scanner userinput = new Scanner (System.in);
+            System.out.println("Insert Alas");
+            double alas = userinput.nextDouble();
+            System.out.println("Insert Tinggi");
+            double tinggi = userinput.nextDouble();
+            double luas = (alas*tinggi)/2; 
+            System.out.println("Luas Segitiga : " + luas);
+    }
+}
