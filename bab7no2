@@ -1,0 +1,78 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.bab7n2;
+
+/**
+ *
+ * @author USER
+ */
+
+import java.util.Scanner;
+
+public class Bab7n2 {
+    public static String nama;
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Nim : ");
+        int nim = input.nextInt();
+        
+        
+        input.nextLine();
+        
+        System.out.println("Tahun : ");
+        int tahun = input.nextInt();
+        char peminatan = 'M';
+        System.out.println();
+        
+        switch( peminatan ){  
+            case '1':  
+                System.out.println("Bahasa Inggris,Matematika, Sain");  
+                break;  
+            case 2:  
+                switch( peminatan )
+                {  
+                    case 'C':  
+                        System.out.println("Sistem Operasi, Pemrograman Java, Struktur Data");  
+                        break;  
+                    case 'E':  
+                        System.out.println("Algoritma,Logika,Informatika");  
+                        break;  
+                    case 'M':  
+                        System.out.println("DBMS,Manajemen,Proyek");  
+                        break;  
+                }  
+                break;  
+            case 3:  
+                switch( peminatan )   
+                {  
+                    case 'C':  
+                        System.out.println("Organisasi, Komputer, MultiMedia");  
+                        break;  
+                    case 'E':  
+                        System.out.println("Perancangan, Sistem, Pemrograman WEB");  
+                        break;
+                    case 'M':  
+                        System.out.println("Pemrograman Mobile, Pemrograman Java 2");  
+                        break;  
+                }  
+                break;  
+            case 4:  
+                switch( peminatan )   
+                {  
+                    case 'C':  
+                        System.out.println("Komunikasi Data, MultiMedia");  
+                        break;  
+                    case 'E':  
+                        System.out.println(" Sistem Terdistribusi , Image Processing");  
+                        break;  
+                    case 'M':  
+                        System.out.println("SIM , Sistem Jaringan  ");  
+                        break;
+                        }
+            System.out.println("Nim : " + nim);
+            
+        }
+    }
+}
